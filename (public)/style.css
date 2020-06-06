@@ -1,0 +1,157 @@
+
+@font-face{
+    font-family: 'marindabold';
+    src: url("font/Merienda-Bold.ttf");
+}
+@font-face{
+    font-family: 'marinda';
+    src: url("font/Merienda-Regular.ttf");
+}
+body{
+    font-family: marindabold;
+    background-image: url(images/back.jpg);
+}
+.navbar{
+    background-color: #592333 !important;
+}
+.nav-link{
+    padding-right: 2em !important;
+    color: #a31842 !important;
+    font-weight: bold;
+}
+.dropdown-item{
+    background-color: #592333;
+    color: #a31842 !important;
+    font-weight: bold;
+}
+.fa-shopping-cart,.fa-user,.fa-facebook-square,.fa-instagram,.fa-whatsapp{
+    padding-right: 1em;
+    color: #a31842 !important;
+    font-size: 32px !important;
+}
+.carousel-item,.d-block{
+    margin-top: 10px;
+    height: 300px;
+}
+.card1,.card2{
+    border-radius: 15px 50px 30px;
+    font-size: bolder;
+    text-align: center;
+    width: 400px;
+    height: 100%;
+    box-shadow: 4px 4px 5px black;
+    align-items: center !important;
+    margin-top: 1em;
+    justify-content: space-around;
+}
+.maincard{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap:  wrap;
+}
+.headings{
+    margin-top: 1em;
+    text-shadow: 5px 5px 3px #592333;
+    color: #ffffff;
+    text-align: center;
+    justify-content: space-around;
+}
+.cardimg{
+    border-radius: 20px;
+}
+.card-img{
+    height: 10% !important;
+}
+.card{
+    border: solid #592333;
+    box-shadow: 5px 5px 5px #592333 !important;
+    margin-top: 10px;
+    background-image: url("images/back.jpg");
+}
+.ourmenu{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap:  wrap;
+}
+.card-title,h4{
+    color: #ffffff;
+    text-shadow: 4px 4px 5px black;
+}
+.card-text{
+    color: #ffffff;
+}
+.btn-primary{
+    font-size: 15px;
+    color:#ffffff;
+    border-width: 0.2em;
+    border-color: #a31842;
+    background-color: #592333;
+}
+iframe{
+    margin: 20px;
+}
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color:#a31842; /* Set a background color */
+    color: #592333; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 25px; /* Increase font size */
+  }
+  
+  #myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+  }
+.fullfooter{
+    position: sticky;
+    margin-top: 20px;
+    padding: 20px;
+    height: 500px;
+    color: #ffffff;
+    background-color: #592333;
+}
+.float-right{
+    justify-content: space-around;
+}
+.gallerypics{
+    align-items: center;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap:  wrap;
+}
+.aboutcard{
+    align-items: center;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap:  wrap;
+}
+td{
+    color: #ffffff;  
+    background-color: #592333;  
+}
+th{
+    background-color: #a31842;
+}
+.btn-link{
+    background-color: #592333;
+    color: #ffffff;
+}
+.fa-sort-desc{
+    color: #ffffff;
+    float: right;
+}
