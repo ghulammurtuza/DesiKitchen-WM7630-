@@ -7,10 +7,22 @@
     font-family: 'marinda';
     src: url("font/Merienda-Regular.ttf");
 }
+
+.marq{
+    margin-top: 30px;
+    background-color: #592333;
+    width : 100%;
+    direction:left;
+    height:30px;
+    color: white;
+    /* onmousedown:thistop(); */
+    ;
+}
 body{
     font-family: marindabold;
     background-image: url(images/back.jpg);
 }
+
 .navbar{
     background-color: #592333 !important;
 }
@@ -28,6 +40,9 @@ body{
     padding-right: 1em;
     color: #a31842 !important;
     font-size: 32px !important;
+}
+.fa-shopping-cart,.fa-user{
+    visibility: hidden;
 }
 .carousel-item,.d-block{
     margin-top: 10px;
